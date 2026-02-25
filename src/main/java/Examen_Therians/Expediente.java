@@ -18,6 +18,7 @@ public class Expediente {
 
         this.ciudadano = ciudano;
         this.estado = estado;
+        this.listasSeres = new ArrayList<>();
 
     }
 
@@ -55,10 +56,9 @@ public class Expediente {
         String ser = entrada.nextLine();
 
 
-        switch (TipoSer.valueOf(ser)) {
+        switch (TipoSer.valueOf(ser.toUpperCase())) {
             case TipoSer.THERIAN:
                 listasSeres.add(TipoSer.THERIAN);
-
                 break;
             case TipoSer.DOMESTICO:
                 listasSeres.add(TipoSer.DOMESTICO);

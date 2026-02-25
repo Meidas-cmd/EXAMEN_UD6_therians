@@ -15,8 +15,8 @@ public class CensoMutxamelApp {
         agentesPoliciasRegistrados.add(new Agente("Luisa","Mutxamel",2334));
         agentesPoliciasRegistrados.add(new Agente("Raúl","Mutxamel",1234));
 
-        System.out.println("Agente" + agentesPoliciasRegistrados.get(0).getNombre() + "tu id es:" + agentesPoliciasRegistrados.get(0).getId());
-        System.out.println("Agente" + agentesPoliciasRegistrados.get(1).getNombre() + "tu id es:" + agentesPoliciasRegistrados.get(1).getId());
+        System.out.println("Agente " + agentesPoliciasRegistrados.get(0).getNombre() + " tu id es: " + agentesPoliciasRegistrados.get(0).getId());
+        System.out.println("Agente " + agentesPoliciasRegistrados.get(1).getNombre() + " tu id es: " + agentesPoliciasRegistrados.get(1).getId());
 
         menuCenso();
 
