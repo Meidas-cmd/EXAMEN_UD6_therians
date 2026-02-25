@@ -26,6 +26,7 @@ public class Ciudadano extends Persona{
         expediente.setEstadoTramite(EstadoTramite.PAGADO);
         System.out.println("Estado del expediente: " + expediente.getEstadoTramite());
 
+
     }
 
     @Override

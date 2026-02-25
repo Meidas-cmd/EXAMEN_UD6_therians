@@ -58,9 +58,4 @@ public class CensoMutxamelApp {
 
     }
 
-    public void verExpediente(){
-
-
-
-    }
 }

@@ -45,7 +45,7 @@ public class Expediente {
     }
 
     public void setEstadoTramite(EstadoTramite estado) {
-        estado = estado;
+        this.estado = estado;
     }
 
     public void insertarSeres() {
