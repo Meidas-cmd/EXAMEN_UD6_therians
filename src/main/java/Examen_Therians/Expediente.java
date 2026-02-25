@@ -8,6 +8,9 @@ public class Expediente {
     static Scanner entrada = new Scanner(System.in);
 
     private Ciudadano ciudadano;
+
+
+
     private ArrayList<TipoSer> listasSeres;
     private EstadoTramite estado;
 
@@ -125,6 +128,14 @@ public class Expediente {
 
         System.out.println("Importe tasas actual: " + total + "€ ");
 
+    }
+    @Override
+    public String toString() {
+        return "Expediente{" +
+                "ciudadano=" + ciudadano +
+                ", listasSeres=" + listasSeres +
+                ", estado=" + estado +
+                '}';
     }
 
 

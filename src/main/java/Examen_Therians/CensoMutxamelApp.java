@@ -22,7 +22,8 @@ public class CensoMutxamelApp {
 
         for (Expediente e : listaExpedientes){
 
-            
+            e.toString();
+
         }
 
     }
